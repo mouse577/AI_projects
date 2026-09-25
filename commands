@@ -1,0 +1,16 @@
+conda deactivate
+conda env remove -n dlc_env
+
+conda create -n dlc_env python=3.10
+conda activate dlc_env
+
+pip install tensorflow==2.13.1 keras==2.13.1
+pip install 'deeplabcut[gui]'
+pip install tensorpack tf_slim
+
+python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+python -c "import deeplabcut"
+
+pip install tensorflow==2.13.1 keras==2.13.1
+pip install 'deeplabcut[gui]'
+pip install tensorpack tf_slim
