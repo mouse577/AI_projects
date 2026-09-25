@@ -34,6 +34,10 @@ The script trains for 1,000,000 timesteps, saves a model and checkpoints, evalua
 
 The report discusses results from training runs; **trained models, TensorBoard logs, and the report's referenced `good.png` figure are not currently included in this repository**. See the report for the stated results and the code for the training procedure.
 
+![Example training result](good.png)
+
+Additional training metrics are in the [figures folder](figures/).
+
 ## Repository guide
 
 | File | Purpose |
