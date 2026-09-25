@@ -1,0 +1,8 @@
+AI_project/
+AIproj_venv/
+checkpoints/
+logs/
+*.zip
+.venv/
+__pycache__/
+*.pyc
