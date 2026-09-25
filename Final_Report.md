@@ -1,7 +1,7 @@
 # Deep Q-Networks and QR-DQN for Atari Breakout
 
 ### AUTHOR: JOHN GAYNES
-### [REPOSITORY](https://github.com/neoygaj/AI_project.git)
+### ### [REPOSITORY](https://github.com/mouse577/AI_projects)
 ### [DEMO VIDEO](https://youtube.com/shorts/6aru__G4aGs?feature=share)
 
 # 1. OVERVIEW
@@ -10,7 +10,7 @@ This project aimed to explore and test reinforcement learning (RL) approaches fo
 - DQN (Deep Q-Network)
 - QRDQN (Quantile Regression Deep Q-Network)
 
-The goal was to train an agent to learn optimal actions moving the paddle in the game PONG solely based on training experience to achieve as high of a score as possible.
+The goal was to train an agent to move the paddle in Atari Breakout using visual observations and maximize its episode reward.
 
 Hyperparameters, such as learning rate, batch size and network size were manipuled to investigate how each one affected stability and performance.
 
@@ -95,7 +95,6 @@ Both of the algorithms were tested in the same environment to offer an unbiased 
 
     - Observation: QRDQN smoothed out "plateaus" in reward see in standard DQN.
 
-![Best run](good.png)
 
 # 4. CONCLUSIONS AND FUTURE WORK
 
